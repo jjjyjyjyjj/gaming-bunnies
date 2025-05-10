@@ -17,8 +17,8 @@
     {"name":"background","order":6,"path":"folders/Sprites/background.yy",},
     {"name":"outfits","order":5,"path":"folders/Sprites/outfits.yy",},
     {"name":"UI","order":2,"path":"folders/Sprites/UI.yy",},
-    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
-    {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"gameplay","order":1,"path":"rooms/gameplay/gameplay.yy",},
