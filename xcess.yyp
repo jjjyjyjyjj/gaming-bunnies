@@ -39,6 +39,7 @@
   "name":"xcess",
   "resources":[
     {"id":{"name":"obj_ready","path":"objects/obj_ready/obj_ready.yy",},},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"seq_ready","path":"sequences/seq_ready/seq_ready.yy",},},
