@@ -40,6 +40,8 @@
     {"id":{"name":"obj_ready","path":"objects/obj_ready/obj_ready.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"seq_ready","path":"sequences/seq_ready/seq_ready.yy",},},
+    {"id":{"name":"GameplayScreen","path":"sounds/GameplayScreen/GameplayScreen.yy",},},
+    {"id":{"name":"HomeScreen","path":"sounds/HomeScreen/HomeScreen.yy",},},
     {"id":{"name":"black_watch","path":"sprites/black_watch/black_watch.yy",},},
     {"id":{"name":"boho_top","path":"sprites/boho_top/boho_top.yy",},},
     {"id":{"name":"brown_boots","path":"sprites/brown_boots/brown_boots.yy",},},
