@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":135,
   "bbox_left":62,
-  "bbox_right":126,
+  "bbox_right":128,
   "bbox_top":56,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a7715715-cdf3-4ec6-baa3-6de76d98700d","name":"a7715715-cdf3-4ec6-baa3-6de76d98700d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b2132997-f1bf-4a28-b351-e21c01c9840c","name":"b2132997-f1bf-4a28-b351-e21c01c9840c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":32,
   "gridY":32,
   "height":200,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fba7585b-8a4a-4fb2-ae27-7a3a32de1d5e","blendMode":0,"displayName":"default","isLocked":false,"name":"fba7585b-8a4a-4fb2-ae27-7a3a32de1d5e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"414ee73d-a761-4a92-8619-80601bcdd81d","blendMode":0,"displayName":"default","isLocked":false,"name":"414ee73d-a761-4a92-8619-80601bcdd81d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bag",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7715715-cdf3-4ec6-baa3-6de76d98700d","path":"sprites/bag/bag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bb1c1401-35c7-48ee-9bf3-60c43155100b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2132997-f1bf-4a28-b351-e21c01c9840c","path":"sprites/bag/bag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8f97731f-2d5e-403a-815e-844cafd8f8d1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
