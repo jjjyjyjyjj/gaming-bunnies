@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"denim_skirt",
+  "%Name":"silver_earring",
   "bboxMode":0,
-  "bbox_bottom":413,
-  "bbox_left":190,
-  "bbox_right":496,
+  "bbox_bottom":358,
+  "bbox_left":218,
+  "bbox_right":426,
   "bbox_top":241,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8307295a-f4ea-45d5-ad53-c2ac2663da73","name":"8307295a-f4ea-45d5-ad53-c2ac2663da73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fdc4f8dc-9853-44cb-b73e-d9c911d01cd8","name":"fdc4f8dc-9853-44cb-b73e-d9c911d01cd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":32,
   "gridY":32,
   "height":700,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"10e0c550-65d4-4303-91f8-17873c4b55fc","blendMode":0,"displayName":"default","isLocked":false,"name":"10e0c550-65d4-4303-91f8-17873c4b55fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"94f88cee-e0f0-4e3d-ae6f-6519cb2d0107","blendMode":0,"displayName":"default","isLocked":false,"name":"94f88cee-e0f0-4e3d-ae6f-6519cb2d0107","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"denim_skirt",
+  "name":"silver_earring",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"denim_skirt",
+    "%Name":"silver_earring",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"denim_skirt",
+    "name":"silver_earring",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8307295a-f4ea-45d5-ad53-c2ac2663da73","path":"sprites/denim_skirt/denim_skirt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"36bef5a2-0584-4771-8625-8530684a0811","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fdc4f8dc-9853-44cb-b73e-d9c911d01cd8","path":"sprites/silver_earring/silver_earring.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"336f8a78-779d-4bed-aded-17b008bd791a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
