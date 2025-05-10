@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,8 +39,11 @@
   },
   "name":"xcess",
   "resources":[
+    {"id":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},},
     {"id":{"name":"obj_creditsbutton","path":"objects/obj_creditsbutton/obj_creditsbutton.yy",},},
     {"id":{"name":"obj_ready","path":"objects/obj_ready/obj_ready.yy",},},
+    {"id":{"name":"obj_sq_block","path":"objects/obj_sq_block/obj_sq_block.yy",},},
+    {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_startsbutton","path":"objects/obj_startsbutton/obj_startsbutton.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
@@ -63,6 +66,9 @@
     {"id":{"name":"silver_bracelet","path":"sprites/silver_bracelet/silver_bracelet.yy",},},
     {"id":{"name":"silver_earring","path":"sprites/silver_earring/silver_earring.yy",},},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},},
+    {"id":{"name":"spr_char","path":"sprites/spr_char/spr_char.yy",},},
+    {"id":{"name":"spr_closet_block","path":"sprites/spr_closet_block/spr_closet_block.yy",},},
+    {"id":{"name":"spr_closet","path":"sprites/spr_closet/spr_closet.yy",},},
     {"id":{"name":"spr_creditsbutton","path":"sprites/spr_creditsbutton/spr_creditsbutton.yy",},},
     {"id":{"name":"spr_ready","path":"sprites/spr_ready/spr_ready.yy",},},
     {"id":{"name":"spr_startbutton","path":"sprites/spr_startbutton/spr_startbutton.yy",},},
@@ -74,8 +80,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
