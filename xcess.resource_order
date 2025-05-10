@@ -26,7 +26,6 @@
     {"name":"Object2","order":15,"path":"objects/Object2/Object2.yy",},
     {"name":"gameplay","order":1,"path":"rooms/gameplay/gameplay.yy",},
     {"name":"menu_screen","order":1,"path":"rooms/menu_screen/menu_screen.yy",},
-    {"name":"RoomUI","order":16,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"bag","order":17,"path":"sprites/bag/bag.yy",},
     {"name":"boho_top","order":7,"path":"sprites/boho_top/boho_top.yy",},
     {"name":"brown_boots","order":1,"path":"sprites/brown_boots/brown_boots.yy",},
