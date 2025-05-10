@@ -46,7 +46,6 @@
     {"id":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
     {"id":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"seq_ready","path":"sequences/seq_ready/seq_ready.yy",},},
     {"id":{"name":"bag","path":"sprites/bag/bag.yy",},},
     {"id":{"name":"black_watch","path":"sprites/black_watch/black_watch.yy",},},
