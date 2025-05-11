@@ -1,12 +1,5 @@
-hanger_items = {
-    a: bag,
-    b: boho_top,
-    c: jeans
-}
 
 // initialize variable
+closet_items ={a: bag, b: black_watch, c: boho_top, d: jeans}; 
 chosen_hitem = undefined;
-
-draw_hitem = function() {
-  draw_sprite(chosen_hitem, 0, 1000,100);
-}
+len_struct = struct_names_count(closet_items);
