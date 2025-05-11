@@ -11,6 +11,7 @@
     {"name":"inst_4B197123","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_65401596","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_73DC9ADC","path":"rooms/gameplay/gameplay.yy",},
+    {"name":"inst_67CCDDCD","path":"rooms/gameplay/gameplay.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,7 @@
         {"$GMRInstanceLayer":"","%Name":"hanger_item_gen","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v2","%Name":"inst_4B197123","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B197123","objectId":{"name":"obj_hanger_item_gen","path":"objects/obj_hanger_item_gen/obj_hanger_item_gen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":224.0,},
             {"$GMRInstance":"v2","%Name":"inst_65401596","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65401596","objectId":{"name":"obj_hanger_item_spawner","path":"objects/obj_hanger_item_spawner/obj_hanger_item_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":224.0,},
+            {"$GMRInstance":"v2","%Name":"inst_67CCDDCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67CCDDCD","objectId":{"name":"obj_health_and_score","path":"objects/obj_health_and_score/obj_health_and_score.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":288.0,},
           ],"layers":[],"name":"hanger_item_gen","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
       ],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[

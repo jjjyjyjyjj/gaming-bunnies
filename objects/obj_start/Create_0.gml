@@ -21,6 +21,8 @@ global.closet_items = [
 	white_boots,
 	white_crop]
 
+global.hanger_items = ds_queue_create();
+
 drawx = 656;
 drawy = 464;
 for (var j = 0; j < 3; j++) {
