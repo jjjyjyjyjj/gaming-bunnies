@@ -1,25 +1,33 @@
-global.score = 0
-global.stage = 1
+global.health = 3;
+global.score = 0;
+global.stage = 1;
 global.clicked = undefined;
-global.closet_items = {
-    a: bag,
-    b: boho_top,
-    c: jeans,
-	d: brown_boots,
-	e: denim_skirt,
-	f: dress,
-	g: glasses,
-	h: gold_bracelet,
-	i: gold_earring,
-	j: gold_watch,
-	k: jeans,
-	l: pink_top,
-	m: silver_bracelet,
-	n: silver_earring,
-	o: tabi,
-	p: white_boots,
-	q: white_crop
+global.closet_items = [
+    bag,
+    boho_top,
+    jeans,
+	brown_boots,
+	denim_skirt,
+	dress,
+	glasses,
+	gold_bracelet,
+	gold_earring,
+	gold_watch,
+	jeans,
+	pink_top,
+	silver_bracelet,
+	silver_earring,
+	tabi,
+	white_boots,
+	white_crop]
+
+drawx = 656;
+drawy = 464;
+for (var j = 0; j < 3; j++) {
+	for (var i = 0; i < 4; i++) {
+		instance_create_layer(drawx, drawy, "Instances", obj_create_closet);
+		drawx += 112;
+	}
+	drawx = 656;
+	drawy += 112;
 }
-
-
-
