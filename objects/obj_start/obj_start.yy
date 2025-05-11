@@ -10,8 +10,8 @@
   "name":"obj_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sounds",
+    "path":"folders/Objects/Sounds.yy",
   },
   "parentObjectId":null,
   "persistent":false,
