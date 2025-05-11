@@ -33,3 +33,4 @@ chosen_hitem = global.closet_items[random_key];
 ds_queue_enqueue(global.hanger_items, chosen_hitem);
 
 x = 1200;
+y = 275;
