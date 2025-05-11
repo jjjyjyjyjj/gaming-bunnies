@@ -30,6 +30,7 @@
     {"name":"obj_startsbutton","order":1,"path":"objects/obj_startsbutton/obj_startsbutton.yy",},
     {"name":"gameplay","order":1,"path":"rooms/gameplay/gameplay.yy",},
     {"name":"menu_screen","order":1,"path":"rooms/menu_screen/menu_screen.yy",},
+    {"name":"seq_title","order":1,"path":"sequences/seq_title/seq_title.yy",},
     {"name":"GameplayScreen","order":2,"path":"sounds/GameplayScreen/GameplayScreen.yy",},
     {"name":"SelectSound","order":3,"path":"sounds/SelectSound/SelectSound.yy",},
     {"name":"bag","order":17,"path":"sprites/bag/bag.yy",},
