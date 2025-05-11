@@ -51,6 +51,7 @@
     {"id":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"seq_ready","path":"sequences/seq_ready/seq_ready.yy",},},
+    {"id":{"name":"seq_title","path":"sequences/seq_title/seq_title.yy",},},
     {"id":{"name":"GameplayScreen","path":"sounds/GameplayScreen/GameplayScreen.yy",},},
     {"id":{"name":"HomeScreen","path":"sounds/HomeScreen/HomeScreen.yy",},},
     {"id":{"name":"SelectSound","path":"sounds/SelectSound/SelectSound.yy",},},
