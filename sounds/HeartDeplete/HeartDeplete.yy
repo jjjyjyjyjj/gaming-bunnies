@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"SelectSound",
+  "%Name":"HeartDeplete",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.4702041,
-  "name":"SelectSound",
+  "duration":0.0,
+  "name":"HeartDeplete",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SelectSound.mp3",
+  "soundFile":"HeartDeplete",
   "type":0,
   "volume":1.0,
 }
