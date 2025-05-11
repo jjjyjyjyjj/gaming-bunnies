@@ -1,3 +1,4 @@
+global.health = 3;
 global.score = 0;
 global.stage = 1;
 global.clicked = undefined;
@@ -18,9 +19,7 @@ global.closet_items = [
 	silver_earring,
 	tabi,
 	white_boots,
-	white_crop
-]
-
+	white_crop]
 
 drawx = 656;
 drawy = 464;
