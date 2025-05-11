@@ -1,1 +1,0 @@
-chosen_hitem = choose(hanger_items.a, hanger_items.b, hanger_items.c)
