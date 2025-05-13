@@ -26,16 +26,18 @@ if (!global.initialized){
 		
 	global.hanger_items = ds_queue_create();
 	global.initialized = true;
-}
-
-// creating closet
-drawx = 656;
-drawy = 464;
-for (var j = 0; j < 3; j++) {
-	for (var i = 0; i < 4; i++) {
-		instance_create_layer(drawx, drawy, "Instances", obj_create_closet);
-		drawx += 112;
-	}
+	
+	global.valid_items = [];
+	
+	// creating closet
 	drawx = 656;
-	drawy += 112;
+	drawy = 464;
+	for (var j = 0; j < 3; j++) {
+		for (var i = 0; i < 4; i++) {
+			instance_create_layer(drawx, drawy, "Instances", obj_create_closet);
+			drawx += 112;
+		}
+		drawx = 656;
+		drawy += 112;
+	}
 }
