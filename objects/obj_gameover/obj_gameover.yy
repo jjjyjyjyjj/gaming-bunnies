@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_gameover",
+  "eventList":[],
   "managed":true,
-  "name":"obj_start",
+  "name":"obj_gameover",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_start",
-    "path":"sprites/spr_start/spr_start.yy",
+    "name":"spr_gameover",
+    "path":"sprites/spr_gameover/spr_gameover.yy",
   },
   "spriteMaskId":null,
   "visible":true,
