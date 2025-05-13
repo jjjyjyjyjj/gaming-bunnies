@@ -1,1 +1,0 @@
-global.clicked = 1;

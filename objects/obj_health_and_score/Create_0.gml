@@ -1,2 +1,2 @@
-global.health = 3;
-curr_hitem = ds_queue_dequeue(global.hanger_items);
+// inherite parent create event
+event_inherited();
