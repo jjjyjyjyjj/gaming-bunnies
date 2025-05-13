@@ -8,8 +8,8 @@ if(x > 250) {
 	}
 	event_perform_object(obj_hanger_item_gen, ev_draw, 0);} 
 
-// x = 250
-if (x = 250){
+// x <= 250
+if (x <= 250){
 	global.health -= 1;
 	show_debug_message("Hit max distance");
 	event_perform_object(obj_hanger_item_gen, ev_destroy, 0);
