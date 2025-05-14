@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_youwon",
+  "eventList":[],
   "managed":true,
-  "name":"obj_start",
+  "name":"obj_youwon",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_start",
-    "path":"sprites/spr_start/spr_start.yy",
+    "name":"spr_winning",
+    "path":"sprites/spr_winning/spr_winning.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_finished",
+  "eventList":[],
   "managed":true,
-  "name":"obj_start",
+  "name":"obj_finished",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_start",
-    "path":"sprites/spr_start/spr_start.yy",
+    "name":"spr_finished",
+    "path":"sprites/spr_finished/spr_finished.yy",
   },
   "spriteMaskId":null,
   "visible":true,
