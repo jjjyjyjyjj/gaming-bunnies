@@ -1,9 +1,10 @@
 if (!global.initialized){
-	global.item_speed = 6;
-	global.spawn_speed = 30;
+	global.item_speed = 4;
+	global.spawn_speed = 60;
 	global.health = 3;
 	global.score = 0;
 	global.stage = 1;
+	global.dequeued_item = undefined;
 	global.clicked = undefined;
 	global.closet_items = [
 		bag,
@@ -25,8 +26,8 @@ if (!global.initialized){
 		white_crop];
 		
 	global.hanger_items = ds_queue_create();
+	global.hanger_items_list = [];
 	global.initialized = true;
-	
 	global.valid_items = [];
 	
 	// creating closet

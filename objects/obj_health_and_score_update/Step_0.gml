@@ -1,21 +1,42 @@
-if(x > 250) {
+if (!ds_queue_empty(global.hanger_items)){
+	if (global.dequeued_item == undefined){
+		global.dequeued_item = ds_queue_dequeue(global.hanger_items);}}
+
+with (obj_hanger_item_gen) {
+	//show_debug_message("hanger item is " + string(hanger_item)+" dequeued item is " + string(global.dequeued_item));
+if (x > 250) {
 	if (global.clicked){
-		// user clicked correct closet item
-		if (dequeued_item == global.clicked){
-		show_debug_message("It's a match!");
-		global.score += 10;
-		global.clicked = undefined;}
-		else {global.health -= 1;}
-	}
-	event_perform_object(obj_hanger_item_gen, ev_draw, 0);} 
-
-// x <= 250
-if (x <= 250){
+			// user clicked correct closet item
+		if (global.dequeued_item == global.clicked){
+			show_debug_message("dequeued is " + string(global.dequeued_item)+ ", clicked is " + string(global.clicked)+ " So, it's a match!");
+			global.score += 10;
+			if (hanger_item == global.dequeued_item){
+				draw_hanger_item = false;
+				instance_destroy();}
+			//global.dequeued_item = undefined;
+			global.dequeued_item = ds_queue_dequeue(global.hanger_items);
+			global.clicked = undefined;
+			exit;}
+		else {
+			show_debug_message("dequeue: " + string(global.dequeued_item));
+			show_debug_message("wrong item clicked");
+			global.health -= 1;
+			global.clicked = undefined;
+			show_debug_message("One health deleted");
+			}
+		}}
+	
+	// x <= 250
+else if (x <= 250){
 	global.health -= 1;
-	show_debug_message("Hit max distance");
-	event_perform_object(obj_hanger_item_gen, ev_destroy, 0);
-	show_debug_message(string(global.health));}
+	show_debug_message("item "+ string(hanger_item)+" hit max distance");
+	show_debug_message("health is now " + string(global.health));
+	instance_destroy();
+	if (hanger_item == global.dequeued_item){ global.dequeued_item = ds_queue_dequeue(global.hanger_items);}
+	show_debug_message("new dequeue item "+string(global.dequeued_item));
+	exit;}}
 
-if (global.health == 0) {
+
+if (global.health <= 0) {
 	show_debug_message("Out of health");
 	room_goto(menu_screen);}

@@ -74,6 +74,7 @@
     {"name":"spr_start","order":4,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_startbutton","order":1,"path":"sprites/spr_startbutton/spr_startbutton.yy",},
     {"name":"spr_winning","order":6,"path":"sprites/spr_winning/spr_winning.yy",},
+    {"name":"Sprite34","order":16,"path":"sprites/Sprite34/Sprite34.yy",},
     {"name":"tabi","order":16,"path":"sprites/tabi/tabi.yy",},
     {"name":"title__1_","order":3,"path":"sprites/title__1_/title__1_.yy",},
     {"name":"white_boots","order":3,"path":"sprites/white_boots/white_boots.yy",},
