@@ -1,6 +1,6 @@
-if (!ds_queue_empty(global.hanger_items)){
+//if (!ds_queue_empty(global.hanger_items)){
 	if (global.dequeued_item == undefined){
-		global.dequeued_item = ds_queue_dequeue(global.hanger_items);}}
+		global.dequeued_item = ds_queue_dequeue(global.hanger_items);}
 
 with (obj_hanger_item_gen) {
 	//show_debug_message("hanger item is " + string(hanger_item)+" dequeued item is " + string(global.dequeued_item));
