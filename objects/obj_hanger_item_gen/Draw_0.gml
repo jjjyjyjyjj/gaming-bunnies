@@ -1,3 +1,3 @@
-if (chosen_hitem != undefined) {
-	draw_sprite(chosen_hitem, 0, x, y);
+if (hanger_item != undefined) {
+	draw_sprite(hanger_item, 0, x, y);
 }
