@@ -1,6 +1,6 @@
 if (!global.initialized){
-	global.item_speed = 6;
-	global.spawn_speed = 30;
+	global.item_speed = 3;
+	global.spawn_speed = 60;
 	global.health = 3;
 	global.score = 0;
 	global.stage = 1;
