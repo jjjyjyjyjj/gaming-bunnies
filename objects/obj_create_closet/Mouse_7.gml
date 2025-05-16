@@ -10,6 +10,7 @@ if (chosen_hitem == hanger_item) {
 	global.score += 10;
 	global.clicked = undefined;
 	var destroy = ds_queue_dequeue(global.hanger_items); // actually dequeue it
+	instance_destroy(destroy.hanger); 
 	instance_destroy(destroy);
 
 	

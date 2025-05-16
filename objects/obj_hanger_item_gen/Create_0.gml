@@ -2,6 +2,7 @@
 event_inherited()
 
 // Initialize
+hanger = undefined;
 hanger_item = undefined;
 num_citem = array_length(global.valid_items) - 1;
 
