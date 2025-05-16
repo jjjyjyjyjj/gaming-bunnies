@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_level",
+    "path":"sprites/spr_level/spr_level.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
