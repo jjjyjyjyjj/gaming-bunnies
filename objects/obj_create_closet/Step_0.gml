@@ -1,8 +1,8 @@
 // Interaction ranges and scale settings
-var range = 0.5;
+var range = 12;
 var min_scale = 1;
 var hover_scale = 1.05;
-var pressed_scale = 0.01;
+var pressed_scale = 0.9;
 
 var scale_spd = 0.15;
 
