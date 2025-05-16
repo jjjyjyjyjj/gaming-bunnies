@@ -13,6 +13,7 @@
 if (x <= 250){
 	global.health -= 1;
 	show_debug_message("Hit max distance");
+	audio_play_sound(HeartDeplete, 1, false);
 	var dropped_item = ds_queue_dequeue(global.hanger_items);
 	instance_destroy(dropped_item.hanger);
 
@@ -21,4 +22,5 @@ if (x <= 250){
 
 if (global.health == 0) {
 	show_debug_message("Out of health");
+	audio_play_sound(GameOverSound, 1, false);
 	room_goto(menu_screen);}
