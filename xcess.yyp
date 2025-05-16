@@ -93,6 +93,7 @@
     {"id":{"name":"gold_earring","path":"sprites/gold_earring/gold_earring.yy",},},
     {"id":{"name":"gold_watch","path":"sprites/gold_watch/gold_watch.yy",},},
     {"id":{"name":"jeans","path":"sprites/jeans/jeans.yy",},},
+    {"id":{"name":"obj_quit_button","path":"sprites/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"pink_top","path":"sprites/pink_top/pink_top.yy",},},
     {"id":{"name":"silver_bracelet","path":"sprites/silver_bracelet/silver_bracelet.yy",},},
     {"id":{"name":"silver_earring","path":"sprites/silver_earring/silver_earring.yy",},},
