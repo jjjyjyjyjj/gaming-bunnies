@@ -1,32 +1,29 @@
-// initialise
-chosen_hitem = undefined;
-global.closet_items = [
-    bag,
-    boho_top,
-    jeans,
-	brown_boots,
-	denim_skirt,
-	dress,
-	glasses,
-	gold_bracelet,
-	gold_earring,
-	gold_watch,
-	jeans,
-	pink_top,
-	silver_bracelet,
-	silver_earring,
-	tabi,
-	white_boots,
-	white_crop]
-	
-num_citem = array_length(global.closet_items) - 1;
+// Inherit parent's create
+event_inherited()
 
-// Pick a random item key 
-randomise ();
-var random_key = irandom_range(0, num_citem);
+// Initialize
+hanger = undefined;
+hanger_item = undefined;
+num_citem = array_length(global.valid_items) - 1;
 
-// Assign chosen item sprite
-chosen_hitem = global.closet_items[random_key];
+if (num_citem >= 0) {
+    // Pick a random item key
+    randomise();
+    var random_key = irandom_range(0, num_citem);
 
-x = 1200;
-y = 150;
+    // Assign chosen item
+    hanger_item = global.valid_items[random_key];
+
+    // Remove the item from the array
+    array_delete(global.valid_items, random_key, 1);
+
+    // Position
+    x = 1200;
+    y = 275;
+
+    // Debug
+    show_debug_message("Hanger item " + string(hanger_item) + " created");
+} else {
+    show_debug_message("No more items to choose from.");
+    instance_destroy(); // No valid items left
+}

@@ -1,2 +1,1 @@
-//initialize alarm
-alarm[0] = 120;
+alarm[0] = global.spawn_speed;
