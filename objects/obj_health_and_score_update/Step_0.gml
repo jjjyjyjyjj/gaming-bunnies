@@ -23,4 +23,5 @@ if (x <= 250){
 if (global.health == 0) {
 	show_debug_message("Out of health");
 	audio_play_sound(GameOverSound, 1, false);
-	room_goto(menu_screen);}
+	instance_create_layer(0, 0, "Instances", obj_gameover);
+	}
