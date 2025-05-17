@@ -22,9 +22,5 @@ if (x <= 250){
 	
 }
 
-if (global.health == 0) {
-	show_debug_message("Out of health");
-	instance_create_layer(0, 0, "Instances", obj_gameover);
-	}
 
 

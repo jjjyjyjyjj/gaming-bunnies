@@ -1,1 +1,1 @@
-seq = layer_sequence_create("Instances", x, y, seq_gameover)
+seq = layer_sequence_create("Instances", x, y, seq_youwon)
