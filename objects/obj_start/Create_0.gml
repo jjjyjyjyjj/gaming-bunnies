@@ -61,4 +61,13 @@ if (!global.initialized){
 	
 	// initializing spawner
 	instance_create_layer(1200, 304, "Instances", obj_hanger_item_spawner);
+	
+	// score ui
+	instance_create_layer(368, 16, "Instances", obj_scoreui);
+	
+	instance_create_layer(16, 16, "Instances", obj_stages_and_itemspeed_update);
+	
+	instance_create_layer(960, 16, "Instances", obj_hearts);
+	
+	instance_create_layer(0, 0, "Instances", obj_health_check);
 }
