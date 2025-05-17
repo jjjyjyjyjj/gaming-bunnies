@@ -8,9 +8,10 @@
   "instanceCreationOrder":[
     {"name":"inst_198808E2","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_7BDBCDCB","path":"rooms/gameplay/gameplay.yy",},
-    {"name":"inst_73DC9ADC","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_57CB28C2","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_4F8E34B9","path":"rooms/gameplay/gameplay.yy",},
+    {"name":"inst_73DC9ADC","path":"rooms/gameplay/gameplay.yy",},
+    {"name":"inst_4673EC10","path":"rooms/gameplay/gameplay.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v2","%Name":"inst_73DC9ADC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73DC9ADC","objectId":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":240.0,},
         {"$GMRInstance":"v2","%Name":"inst_57CB28C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57CB28C2","objectId":{"name":"obj_hearts","path":"objects/obj_hearts/obj_hearts.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":16.0,},
         {"$GMRInstance":"v2","%Name":"inst_4F8E34B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F8E34B9","objectId":{"name":"obj_scoreui","path":"objects/obj_scoreui/obj_scoreui.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":16.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4673EC10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4673EC10","objectId":{"name":"obj_stages_and_itemspeed_update","path":"objects/obj_stages_and_itemspeed_update/obj_stages_and_itemspeed_update.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4628BDF8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4628BDF8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_closet","path":"sprites/spr_closet/spr_closet.yy",},"x":432.0,"y":336.0,},
