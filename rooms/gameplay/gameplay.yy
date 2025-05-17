@@ -7,9 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_198808E2","path":"rooms/gameplay/gameplay.yy",},
-    {"name":"inst_7BDBCDCB","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_5AB5DCCF","path":"rooms/gameplay/gameplay.yy",},
     {"name":"inst_158595F6","path":"rooms/gameplay/gameplay.yy",},
+    {"name":"inst_7BDBCDCB","path":"rooms/gameplay/gameplay.yy",},
   ],
   "isDnd":false,
   "layers":[
