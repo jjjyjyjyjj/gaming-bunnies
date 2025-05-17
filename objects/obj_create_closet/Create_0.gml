@@ -12,7 +12,7 @@ show_debug_message("instance created" + string(chosen_hitem));
 
 item_instance.sprite_index = chosen_hitem;
 
-array_push(global.valid_items, chosen_hitem);
+ds_list_add(global.valid_items, chosen_hitem);
 
 item_instance.depth = -9999;
 

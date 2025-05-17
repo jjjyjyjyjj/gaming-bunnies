@@ -64,7 +64,6 @@
     {"name":"gold_earring","order":14,"path":"sprites/gold_earring/gold_earring.yy",},
     {"name":"gold_watch","order":2,"path":"sprites/gold_watch/gold_watch.yy",},
     {"name":"jeans","order":11,"path":"sprites/jeans/jeans.yy",},
-    {"name":"obj_quit_button","order":13,"path":"sprites/obj_quit_button/obj_quit_button.yy",},
     {"name":"pink_top","order":6,"path":"sprites/pink_top/pink_top.yy",},
     {"name":"silver_bracelet","order":4,"path":"sprites/silver_bracelet/silver_bracelet.yy",},
     {"name":"silver_earring","order":13,"path":"sprites/silver_earring/silver_earring.yy",},

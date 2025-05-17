@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_score",
+    "path":"sprites/spr_score/spr_score.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
