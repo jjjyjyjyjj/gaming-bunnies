@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_startsbutton",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_closet_back",
+  "eventList":[],
   "managed":true,
-  "name":"obj_startsbutton",
+  "name":"obj_closet_back",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_startbutton",
-    "path":"sprites/spr_startbutton/spr_startbutton.yy",
+    "name":"spr_closet",
+    "path":"sprites/spr_closet/spr_closet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
