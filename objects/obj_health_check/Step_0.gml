@@ -7,8 +7,7 @@ if (global.health == 0) {
 	    }
 	}
 	
-	instance_create_layer(640, 416, "Instances", obj_gameover);
 	
-	instance_destroy();
-	
+	room_goto(rm_gameover);
+
 	}

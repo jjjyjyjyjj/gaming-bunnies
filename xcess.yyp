@@ -69,6 +69,7 @@
     {"id":{"name":"credit_screen","path":"rooms/credit_screen/credit_screen.yy",},},
     {"id":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
     {"id":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"seq_finished","path":"sequences/seq_finished/seq_finished.yy",},},
     {"id":{"name":"seq_gameover","path":"sequences/seq_gameover/seq_gameover.yy",},},
@@ -129,6 +130,7 @@
     {"roomId":{"name":"gameplay","path":"rooms/gameplay/gameplay.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"credit_screen","path":"rooms/credit_screen/credit_screen.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

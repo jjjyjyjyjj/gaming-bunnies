@@ -48,6 +48,7 @@
     {"name":"credit_screen","order":2,"path":"rooms/credit_screen/credit_screen.yy",},
     {"name":"gameplay","order":1,"path":"rooms/gameplay/gameplay.yy",},
     {"name":"menu_screen","order":1,"path":"rooms/menu_screen/menu_screen.yy",},
+    {"name":"rm_gameover","order":3,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"seq_finished","order":4,"path":"sequences/seq_finished/seq_finished.yy",},
     {"name":"seq_gameover","order":2,"path":"sequences/seq_gameover/seq_gameover.yy",},
     {"name":"seq_start","order":1,"path":"sequences/seq_start/seq_start.yy",},
